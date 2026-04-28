@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #FFCC00;
+  --color-primary-dark: #E6B800;
+  --color-income: #22C55E;
+  --color-expense: #EF4444;
+  --color-bg-page: #F9FAFB;
+  --color-bg-card: #FFFFFF;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #6B7280;
+  --color-border: #E5E7EB;
+
+  --font-family: 'Inter', sans-serif;
+  --font-size-display: 28px;
+  --font-size-heading: 16px;
+  --font-size-body: 14px;
+  --font-size-caption: 12px;
+
+  --radius-large: 20px;
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-pill: 999px;
+
+  --spacing-page: 16px;
+  --spacing-card: 20px;
+  --spacing-gap: 12px;
+}

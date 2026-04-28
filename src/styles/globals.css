@@ -1,0 +1,16 @@
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-income  { color: var(--color-income); }
+.text-expense { color: var(--color-expense); }
+.text-muted   { color: var(--color-text-secondary); }
