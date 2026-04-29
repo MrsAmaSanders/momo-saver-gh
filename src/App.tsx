@@ -12,10 +12,22 @@ export default function App() {
   const [showForm, setShowForm] = useState(false);
   const [page, setPage] = useState<Page>('home');
 
-  return (
-    <div style={{ width: '100%', minHeight: '100dvh', background: '#F9FAFB', fontFamily: 'Inter, sans-serif', paddingBottom: '80px' }}>
+ return (
+    <div style={{ 
+      width: '100%', 
+      minHeight: '100dvh', 
+      background: '#F9FAFB', 
+      fontFamily: 'Inter, sans-serif', 
+      paddingBottom: '80px',
+      boxSizing: 'border-box',
+      display: 'flex',
+      flexDirection: 'column',
+    }}>
       {page === 'home' && (
-        <div style={{ padding: '20px 16px' }}>
+        <div style={{ 
+          padding: '20px 16px',
+          flex: 1,
+        }}>
           <h2 style={{ fontSize: '18px', fontWeight: 600, marginBottom: '16px' }}>MoMo Budget</h2>
           <BalanceSummary totalIncome={totalIncome} totalExpense={totalExpense} />
           <h3 style={{ fontSize: '14px', fontWeight: 500, marginBottom: '12px' }}>Recent Activity</h3>
