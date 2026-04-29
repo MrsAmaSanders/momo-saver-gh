@@ -13,7 +13,7 @@ export default function App() {
   const [page, setPage] = useState<Page>('home');
 
   return (
-    <div style={{ maxWidth: '375px', margin: '0 auto', minHeight: '100dvh', background: '#F9FAFB', fontFamily: 'Inter, sans-serif', paddingBottom: '80px' }}>
+    <div style={{ maxWidth: '100%', margin: '0 auto', minHeight: '100dvh', background: '#F9FAFB', fontFamily: 'Inter, sans-serif', paddingBottom: '80px' }}>
 
       {page === 'home' && (
         <div style={{ padding: '20px 16px' }}>
@@ -33,7 +33,7 @@ export default function App() {
       {/* Bottom Navigation */}
       <div style={{
         position: 'fixed', bottom: 0, left: '50%', transform: 'translateX(-50%)',
-        width: '100%', maxWidth: '375px', background: '#fff',
+        width: '100%', maxWidth: '100%', background: '#fff',
         borderTop: '1px solid #E5E7EB', display: 'flex', alignItems: 'center',
         padding: '8px 0', zIndex: 50,
       }}>
