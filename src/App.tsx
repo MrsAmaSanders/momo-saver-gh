@@ -13,7 +13,7 @@ export default function App() {
   const [page, setPage] = useState<Page>('home');
 
   return (
-    <div style={{ maxWidth: '375px', margin: '0 auto', minHeight: '100vh', background: '#F9FAFB', fontFamily: 'Inter, sans-serif', paddingBottom: '80px' }}>
+    <div style={{ maxWidth: '375px', margin: '0 auto', minHeight: '100dvh', background: '#F9FAFB', fontFamily: 'Inter, sans-serif', paddingBottom: '80px' }}>
 
       {page === 'home' && (
         <div style={{ padding: '20px 16px' }}>
