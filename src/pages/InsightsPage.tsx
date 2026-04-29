@@ -63,7 +63,7 @@ export default function InsightsPage({ transactions, totalExpense }: Props) {
                   <Cell key={index} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>
-              <Tooltip formatter={(value: number) => formatGHS(value)} />
+              <Tooltip formatter={(value) => formatGHS(Number(value))} />
             </PieChart>
           </ResponsiveContainer>
 
